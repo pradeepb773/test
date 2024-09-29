@@ -1,0 +1,55 @@
+
+.thumbnailimg{
+    width:100%;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 55px 1fr;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.Video-tittle{
+    margin-top: 0%;
+    font-size: 15px;
+    font-weight: 500;
+    width: 250px;
+    margin-bottom: 12px;
+}
+.video-author,.video-stat{
+    font-size: small;
+    margin-top: 0%;
+    margin-bottom: 5px;
+    color: rgb(96, 96, 96);
+}
+.thumbnail-row{
+    margin-bottom: 12px;
+    position: relative;
+}
+.profilepic{
+    width: 36px;
+    border-radius: 50px;
+}
+.vidinfo{
+    display: inline-block;
+    width:100%;
+}
+.video-time{
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
